@@ -1,0 +1,17 @@
+package process;
+
+public class Table implements Process {
+
+	@Override
+	public void print() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void increment(Integer toIncrement) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

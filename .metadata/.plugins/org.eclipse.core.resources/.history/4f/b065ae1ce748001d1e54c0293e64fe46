@@ -1,0 +1,10 @@
+package arrayextension;
+
+import java.util.ArrayList;
+
+public class ArrayData extends ArrayList
+{
+	public <T> map() {
+		return null;
+	}
+}

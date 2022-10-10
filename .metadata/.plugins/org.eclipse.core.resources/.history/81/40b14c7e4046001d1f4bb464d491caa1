@@ -1,0 +1,6 @@
+package process;
+
+public interface Process {
+	void print();
+	void increment();
+}

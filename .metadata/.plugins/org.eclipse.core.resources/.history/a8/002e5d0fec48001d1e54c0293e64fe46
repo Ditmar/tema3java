@@ -1,0 +1,25 @@
+package example2;
+
+import arrayextension.ArrayData;
+
+public class main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		ArrayData<String, Result> data = new ArrayData<String, Result>();
+		data.add("Pepe");
+		data.add("Marcelo");
+		data.add("Clever");
+		data.add("Alex");
+		data.add("Chino");
+		data.add("Maria");
+		ArrayLisr<Result> newData = data.map((item) -> {
+			String cad = (String) item;
+			return new Result(cad, cad.length());
+		});
+		for (Result item : newData) {
+			System.out.println("{name:'"+item.toString() + "' , lenght: '" + item. + "'");
+		}
+	}
+
+}

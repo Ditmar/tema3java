@@ -1,0 +1,17 @@
+package example2;
+
+import arrayextension.ArrayData;
+
+public class main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		ArrayData<String> data = new ArrayData<String>();
+		ArrayData<String> newData= data.map((item) -> {
+			String cad = item.toString();
+			cad = cad + " transformado ";
+			return cad;
+		});
+	}
+
+}

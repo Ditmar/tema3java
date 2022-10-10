@@ -1,0 +1,15 @@
+package arrayextension;
+
+import java.util.ArrayList;
+
+public class ArrayData<E, T> extends ArrayList<E>
+{
+	public ArrayData<E, T> map(ArrayExtensionInterface listen) {
+		ArrayData<E, T> newArray = new ArrayData<E, T>();
+		for (E item : this) { 
+			newArray.add((E) listen.run(item));
+		}
+		return newArray;
+	}
+	
+}

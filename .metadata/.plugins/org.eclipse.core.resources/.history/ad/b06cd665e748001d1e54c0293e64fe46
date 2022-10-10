@@ -1,0 +1,12 @@
+package arrayextension;
+
+import java.util.ArrayList;
+
+public class ArrayData<GATO> extends ArrayList
+{
+	public ArrayData<GATO> map() {
+		
+		return null;
+	}
+	
+}

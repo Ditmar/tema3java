@@ -1,0 +1,22 @@
+package process;
+
+public class Table implements Process {
+	private Integer large;
+	private Integer widht;
+	public Table(Integer large, Integer width) {
+		this.large = large;
+		this.widht = width;
+	}
+	@Override
+	public void print() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void increment(Integer toIncrement) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

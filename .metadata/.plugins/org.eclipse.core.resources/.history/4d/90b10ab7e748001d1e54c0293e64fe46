@@ -1,0 +1,5 @@
+package arrayextension;
+
+public interface ArrayExtensionInterface {
+	public ArrayData<T> run(); 
+}

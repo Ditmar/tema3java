@@ -1,0 +1,15 @@
+package example2;
+
+import arrayextension.ArrayData;
+
+public class main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		ArrayData<String> data = new ArrayData<String>();
+		data.map((item) -> {
+			return item;
+		});
+	}
+
+}

@@ -1,0 +1,11 @@
+package example2;
+
+public class Result {
+	private String name;
+	private Integer lenght;
+	public Result(String name, Integer lenght) {
+		this.name = name;
+		this.lenght = lenghtñ
+				
+	}
+}
